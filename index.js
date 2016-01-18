@@ -67,6 +67,7 @@ function RedisClient(stream, options) {
     }
 
     this.initialize_retry_vars();
+    
     this.pub_sub_mode = false;
     this.subscription_set = {};
     this.monitoring = false;
